@@ -1,0 +1,52 @@
+ADMIN:
+
+*VIEW
+http://localhost/pertemuan13/admin.php?operasi=view
+
+*INSERT
+http://localhost/pertemuan13/admin.php?operasi=insert&nama_admin=jarfan&username=jarfan&password=123
+
+*AMBIL_BY_ID ()
+http://localhost/pertemuan13/admin.php?operasi=ambil_by_id&id_admin=
+
+*UPDATE ()
+http://localhost/pertemuan13/admin.php?operasi=update&id_admin=  &nama_admin=
+
+*DELETE ()
+http://localhost/pertemuan13/admin.php?operasi=delete&id_admin=
+
+
+ANGGOTA:
+
+*INSERT
+http://localhost/pertemuan13/anggota.php?operasi=insert&nama_anggota=simi&gender=perempuan&no_telp=9399293294&alamat=Serpong&email=furqon@gmail.com&password=123&username=furqon
+
+*VIEW
+http://localhost/pertemuan13/anggota.php?operasi=view
+
+*AMBIL_BY_ID ()
+http://localhost/pertemuan13/anggota.php?operasi=ambil_by_id&id_anggota=
+
+*UPDATE ()
+http://localhost/pertemuan13/anggota.php?operasi=update&id_anggota=  &nama_anggota=
+
+*DELETE ()
+http://localhost/pertemuan13/anggota.php?operasi=delete&id_anggota=
+
+
+BUKU:
+
+*VIEW
+http://localhost/pertemuan13/buku.php?operasi=view
+
+*INSERT
+http://localhost/pertemuan13/buku.php?operasi=insert&id_kategori=1&judul_buku=Random&pengarang=farras&thn_terbit=2019-09-09&penerbit=erlangga&isbn=12121212&jumlah_buku=10&lokasi=Rak 2&gambar=gambar1533077058.jpg&tgl_input=2020-09-09&status_buku=0
+
+*AMBIL_BY_ID ()
+http://localhost/pertemuan13/buku.php?operasi=ambil_by_id&id_buku=
+
+*UPDATE ()
+http://localhost/pertemuan13/buku.php?operasi=update&id_buku=  &judul_buku=
+
+*DELETE ()
+http://localhost/pertemuan13/buku.php?operasi=delete&id_buku=
